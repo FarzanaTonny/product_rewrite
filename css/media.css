@@ -1,0 +1,239 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 320.98px) {
+	/*product start*/
+		.product {
+    padding: 0px 5px;
+}
+.col-6{
+	margin-left: -3px !important;
+}
+.item {
+    margin-bottom: 30px;
+}
+	.image {
+    height: 202px;
+    width: 135px;
+}
+
+.tri {
+    right: 5px;
+    top: 0px;
+    border-top: 4px solid #ff696e;
+    border-bottom: 47px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 78px solid #ff696e;
+}
+.test_p {
+    right: 6px;
+    font-size: 14px;
+}
+.about {
+    margin-bottom: 0px !important;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .name {
+    margin-bottom: 0px !important;
+        font-size: 11px;
+
+}
+.price{
+	font-size: 11px;
+}
+	/*product end*/
+
+
+}
+
+/*custom media*/
+@media (min-width: 321px) and (max-width: 375.98px) {
+
+	/*Product start*/
+	.product {
+    padding: 0px 5px;
+}
+.col-6{
+	margin-left: -3px !important;
+}
+	.image {
+    height: 253px;
+    width: 162px;
+}
+.tri {
+    right: 5.5px;
+    }
+    .test_p {
+    right: 7px;
+}
+.about {
+    margin-bottom: 0px !important;
+        margin-top: 6px;
+        font-size: 13px;
+    }
+    .name {
+    margin-bottom: 0px !important;
+    font-size: 12px;
+}
+.price{
+	font-size: 12px;
+}
+
+	/*product end*/
+
+		}
+
+		/*custom media*/
+
+		@media (min-width: 376px) and (max-width: 575.98px) {
+
+	/*product start*/
+	.product {
+        padding: 0px 5px;
+   }
+  .col-6{
+	margin-left: -4px !important;
+  }
+	.image {
+       height: 282px;
+       width: 189px;
+   }
+ .tri {
+    right: 5px;
+}
+.test_p {
+    right: 5px;
+    }
+    .about {
+    margin-bottom: 0px !important;
+        margin-top: 6px;
+        font-size: 14px;
+    }
+    .name {
+    margin-bottom: 0px !important;
+    font-size: 13px;
+}
+.price{
+	font-size: 13px;
+}
+
+
+	/*product end*/
+
+		}
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*product start*/
+	.product {
+    padding: 0px 5px;
+}
+.col-6{
+	margin-left: -2px !important;
+}
+.image {
+    height: 540px;
+    width: 359px;
+}
+/*.item{
+	margin-right: 5px;
+}*/
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: 10px;
+    }
+.test_p {
+    right: 11px;
+}
+
+
+	/*product end*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*product start*/
+	.product {
+    padding: 0px 9px;
+}
+.col-6{
+	margin-left: -2px !important;
+}
+.image {
+    height: 540px;
+    width: 359px;
+}
+/*.item{
+	margin-right: 5px;
+}*/
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: 6px;
+    }
+.test_p {
+    right: 7px;
+}
+
+
+	/*product end*/
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*product start*/
+	.image {
+    height: 448px;
+    width: 306px;
+}
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: 9px;
+    }
+    .test_p {
+    right: 10px;
+}
+	/*product end*/
+
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+/*custom media*/
+
+@media (min-width: 1441px) and (max-width: 1800px) {
+	/*product start*/
+.image {
+    height: 585px;
+}
+
+
+}
+/*custom media*/
+
+@media (min-width: 1801px) and (max-width: 2600px) {
+	/*product start*/
+	.custom_fluid{
+		width: 80% !important;
+	}
+.image {
+    height: 940px;
+}
+
+
+}
